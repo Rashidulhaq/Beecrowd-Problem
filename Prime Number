@@ -1,0 +1,43 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int x,n,m;
+    cin>>x;
+    
+   
+    
+    for (int i=0; i<x; i++)
+    {
+
+        cin>>n;
+        
+        
+        m=0;
+         
+         for(int j=1; j<=n; j++)
+        
+         { 
+        if(n%j==0)
+        
+        
+           m++;
+        
+         }
+         
+         
+    if(m==2)
+       {
+           cout<<n<<" eh primo"<<endl;
+       }
+       else 
+       
+           cout<<n<<" nao eh primo"<<endl;
+       
+
+}
+    return 0;
+}
