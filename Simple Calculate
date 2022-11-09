@@ -1,0 +1,21 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    
+int a,b;
+double c,d,e,f;
+
+
+cin>>a>>c>>d;
+  cin>>b>>e>>f;
+  
+  double r=(c*d)+(e*f);
+   cout <<fixed <<setprecision(2);
+   cout<<"VALOR A PAGAR: R$ "<<r<<endl;
+ 
+
+    return 0;
+}
