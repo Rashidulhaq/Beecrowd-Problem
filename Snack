@@ -1,0 +1,39 @@
+#include<iostream>
+#include<cmath>
+#include<iomanip>
+using namespace std;
+
+int main()
+{ 
+    int x,y;
+    float a;
+    cin>>x>>y;
+    
+    if(x==1){
+        a=4.00;
+    }
+    else if(x==2)
+    {
+        a=4.50;
+    }
+    else if (x==3)
+    {
+        a=5.00;
+    }
+    
+    else if(x==4)
+    {
+        a=2.00;
+    }
+    
+    else if(x==5)
+    {
+        a=1.50;
+    }
+    double t=y*a;
+    
+    cout<<fixed<<setprecision(2);
+    cout<<"Total: R$ "<<t<<endl;
+   
+ return 0;  
+}
