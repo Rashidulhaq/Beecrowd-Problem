@@ -1,0 +1,21 @@
+#include <iostream>
+#include <iomanip> 
+using namespace std;
+
+int main()
+{
+    
+  int A ,B;
+  double C;
+  cin>>A;
+  cin>>B;
+  cin>>C;
+  
+cout<<"NUMBER = "<<A<<endl;
+double r=B*C;
+   cout <<fixed <<setprecision(2);
+   cout<<"SALARY = U$ "<<r<<endl;
+ 
+
+    return 0;
+}
