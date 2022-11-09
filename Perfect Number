@@ -1,0 +1,28 @@
+#include <iostream> 
+#include <cctype>
+using namespace std; 
+
+int main(){
+   
+    
+    int x;
+    cin>>x;
+    for(int j=0; j<x; j++){
+        
+     int n,i=1,sum=0;
+   
+    cin >> n;
+       while(i<n){
+       if(n%i==0)
+       sum=sum+i;
+       i++; 
+}
+ 
+if(sum==n)
+    cout << i << " eh perfeito\n"; 
+else
+    cout << i << " nao eh perfeito\n";
+    }
+
+return 0;
+}
