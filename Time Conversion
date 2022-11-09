@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+  int a,h,m,s;
+  cin>>a;
+  
+ h=a/3600; //hours
+  m=(a-(3600*h))/60; // minite
+  s= (a-(3600*h)-(m*60)); //sec
+ cout<<h<<":"<<m<<":"<<s<<endl;
+    return 0;
+}
