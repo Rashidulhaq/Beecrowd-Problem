@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    long f  =1.0;  //fast of all factorial value 1 assume
+    
+    cin>>n;
+    for (int i=1; i<=n;i++)
+{
+    f*=i;  //factorial=factorial*i
+}
+cout<<f<<endl;
+
+    return 0;
+}
